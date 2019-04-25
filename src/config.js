@@ -1,4 +1,6 @@
 const dev = {
+  STRIPE_KEY: "sk_test_2AxTfcLOIwlufcfMuIuJap4m00Mpb9u5Oc",
+
   s3: {
     REGION: "YOUR_DEV_S3_UPLOADS_BUCKET_REGION",
     BUCKET: "YOUR_DEV_S3_UPLOADS_BUCKET_NAME"
@@ -16,6 +18,8 @@ const dev = {
 };
 
 const prod = {
+  STRIPE_KEY: "sk_test_2AxTfcLOIwlufcfMuIuJap4m00Mpb9u5Oc",
+
   s3: {
     REGION: "YOUR_PROD_S3_UPLOADS_BUCKET_REGION",
     BUCKET: "YOUR_PROD_S3_UPLOADS_BUCKET_NAME"
